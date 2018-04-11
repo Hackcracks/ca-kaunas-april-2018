@@ -1,0 +1,27 @@
+.geltona{
+    background: #FDB913;
+    height: 200px;
+}
+
+.zalia{
+    background: #006A44;
+    height: 200px;
+}
+
+.raudona{
+    background: #C1272D;
+    height: 200px;    
+}
+
+.vytis{
+    position: absolute; 
+    height: 590px;
+    width: 684px;   
+    top: 6px;
+    left: 200px;
+    right: 0px;
+}
+
+.pp{
+    margin: 0px;
+}

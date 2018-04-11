@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Intro</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>Anketa</h1>
+        <form>
+            <label for="firstname" class="lbl">Vardas</label>
+            <input type="text" name="firstname" id="firstname" class="txt-field" />
+
+            <label for="lastname">Pavardė</label>
+            <input type="text" name="lastname" id="lastname" class="txt-field" />
+
+            <label for="city">Miestas</label>
+            <input type="text" name="city" id="city" class="txt-field" />
+
+            <label for="age">Amžius</label>
+            <input type="text" name="age" id="age" class="txt-field" />
+
+            <label for="country">Šalis</label>
+            <select class="select-field" class="lbl" id="country" name="country">
+                    <option value="LT">Lithuania</option>
+                    <option value="DE">German</option>
+                    <option value="LV">Latvia</option>
+                    <option value="EE">Estonia</option>
+                    <option value="RU">Russia</option>
+                    <option value="DK">Denmark</option>
+                    <option value="PL">Poland</option>
+            </select>
+
+            <button type="button" class="btn">
+                <i class="fas fa-paper-plane"></i>Siųsti
+            </button>
+        </form>
+    </div>
+      
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</body>
+</html>

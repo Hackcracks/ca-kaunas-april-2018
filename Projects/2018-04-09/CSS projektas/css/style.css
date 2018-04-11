@@ -1,0 +1,48 @@
+body{
+    background: #efefef;
+    margin: 0;
+}
+#w1{
+    margin-right: 20px;
+}
+
+#w1 {
+    color:red;
+    -webkit-transition: 2s;
+    transition: 2s;
+ }
+  
+ /* mouse over link */
+ #w1:hover {
+    color: blue;
+    -webkit-transition: 2s;
+    transition: 2s;
+}
+
+span{
+    font-size: 21px;
+    font-family: "lobster";
+}
+
+.flex-container{
+    display: 
+}
+
+.d1{
+    width: 960px;
+    height: 200px;
+    background: orange;
+}
+
+.d2{
+    width: 50%;
+    height: 200px;
+    background: green;
+    -webkit-transition-: 1s;
+}
+
+.d2:hover {
+    background: blue;
+    -webkit-transition: 1s;
+    transition: 1s;
+}

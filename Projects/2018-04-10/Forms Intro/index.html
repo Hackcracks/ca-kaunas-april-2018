@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Intro</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>Anketa</h1>
+        <form>
+            <label for="firstname" class="lbl">Vardas</label>
+            <input type="text" name="firstname" id="firstname" class="txt-field" placeholder="Enter your name..."/>
+
+            <label for="lastname">Pavardė</label>
+            <input type="text" name="lastname" id="lastname" class="txt-field" placeholder="Enter your surname..."/>
+
+            <label for="city">Miestas</label>
+            <input type="text" name="city" id="city" class="txt-field" placeholder="Enter your city..."/>
+
+            <label for="age">Amžius</label>
+            <input type="text" name="age" id="age" class="txt-field" placeholder="Enter your age..."/>
+
+            <label for="password">Slaptažodis</label>
+            <input type="password" name="password" id="password" class="txt-field" placeholder="Enter your password..."/>
+
+            <label for="country">Šalis</label>
+            <select class="select-field" class="lbl" id="country" name="country">
+                    <option value="LT">Lithuania</option>
+                    <option value="DE">German</option>
+                    <option value="LV">Latvia</option>
+                    <option value="EE">Estonia</option>
+                    <option value="RU">Russia</option>
+                    <option value="DK">Denmark</option>
+                    <option value="PL">Poland</option>
+            </select>
+
+            <div>
+                <input type="radio" id="r1" name="gender" value="M"> <label for="r1">Male</label>
+                <input type="radio" id="r2" name="gender" value="F" > <label for="r2">Female</label>
+            </div> 
+
+            <div>
+                <input type="checkbox" id="t_n_c" value="true"> 
+                <label for="t_n_c">Accept Terms and Condition</label>
+            </div> 
+
+            <div>
+                <input type="checkbox" id="d1" name="weekday" value="Mondey"> 
+                <label for="d1">Mondey</label>
+                <input type="checkbox" id="d2" name="weekday" value="Thuesday"> 
+                <label for="d2">Thuesday</label>
+                <input type="checkbox" id="d3" name="weekday" value="Wednesday"> 
+                <label for="d3">Wednesday</label>
+            </div>
+
+            <div>
+                <textarea name="message" id="message"> 
+                </textarea>
+            </div>
+
+            <button type="submit" class="btn">
+                <i class="fas fa-paper-plane"></i>Siųsti
+            </button>
+        </form>
+    </div>
+      
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</body>
+</html>

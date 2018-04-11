@@ -1,0 +1,41 @@
+span{
+    font-size: 26px;
+}
+
+.square{
+    background: #e2e2e2;
+
+    padding: 50px;
+
+    border: 10px purple solid;
+
+    margin: 100px;
+
+    display: inline;
+
+}
+
+.square2{
+    background: teal;
+}
+
+.square2 span{
+    margin-bottom: 30px;
+    display: block;
+}
+
+.span1{
+    margin-right: 30px;
+}
+
+.span2{
+    margin-right: 30px;
+}
+
+.square3{
+    margin-left: auto;
+    margin-right: auto;
+    background: blue;
+    height: 200px;
+    width: 960px;
+}

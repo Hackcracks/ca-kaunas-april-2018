@@ -1,0 +1,49 @@
+#header{
+    height: 100px;
+    background-color: #333333;
+}
+
+#main{
+    width: 960px;
+    min-height: 100px;
+    margin: 50px auto;
+    background-color: #efefef;
+}
+
+#footer{
+    height: 100px;
+    background-color: #333333;
+}
+
+#vytis{
+    width: 100%;
+}
+
+#body{
+    margin: 0%;
+}
+
+#news{
+    width: 640px;
+    min-height: 100px;
+    background: purple;
+}
+
+#add{
+    width: 320px;
+    min-height: 100px;
+    background: palegreen;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    background: olivedrab;
+    width: 320px;
+    height: 320px;
+    margin: 5px;
+}

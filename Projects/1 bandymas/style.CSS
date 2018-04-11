@@ -1,0 +1,41 @@
+body{
+    background-color: gold;
+}
+.firstHeader{
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.firstParagraph{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.secondParagraph{
+    font-size: 24px;
+}
+
+.photo{
+    width: 400px;
+    padding-top: 0cm;
+    padding-right: 0cm;
+    padding-bottom: 0cm;
+    padding-left: 500cm;
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+.bolditalicText{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.table,  .table td{
+    border: 1px solid rgb(50, 219, 16);
+    border-collapse: collapse;
+    border-style: dotted;
+    background: #ecfeff;
+}

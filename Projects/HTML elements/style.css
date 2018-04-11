@@ -1,0 +1,44 @@
+body{
+    background-image: url("background.jpg");
+}
+
+p{
+    background-color: deepskyblue;
+}
+
+.greenText{
+    color: green;
+}
+
+.orangeText{
+    color: orange;
+}
+
+.firstParagraph{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.secondParagraph{
+    font-size: 31px;
+}
+/* Cia yra CSS komentaras */
+.photo{
+    align-self: center;
+    width: 400px;
+    }
+
+.boldText{
+    font-weight: bold;
+}
+
+.table,  .table td{
+    border: 1px solid rgb(50, 219, 16);
+    border-collapse: collapse;
+    border-style: dotted;
+    background: #ecfeff;
+}
+
+.bodyFonas{
+    background-color: gold;
+}

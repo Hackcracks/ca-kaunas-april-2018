@@ -1,0 +1,79 @@
+.container{
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+body{
+    background: url("../img/basket.png");
+}
+
+h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.txt-field,
+.select-field{
+    display: block;
+}
+
+.lbl{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 5px 15px;
+    background: rgb(80, 80, 228);
+    color: #fff;
+    border: 1px solid rgb(80, 80, 228);
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 5px 15px;
+    background: rgb(80, 80, 228);
+    color: #fff;
+    border: 1px solid rgb(131, 131, 180);
+    -webkit-transition: background-color 2s;
+    transition: background-color 2s;
+}
+
+.btn:hover{
+    background: rgb(131, 131, 180);
+    -webkit-transition: background-color 2s;
+    transition: background-color 2s;
+    border-radius: 15%;
+}
+
+.select-field{
+    padding: 5px 15px;
+}
+
+.message{
+    width: 100%; !important
+}
+
+.form-line{
+    margin-bottom: 15px;
+}
+
+.txt-field{
+    padding: 5px 10px;
+    background:  #fff;
+    border: 1px solid #ddd;
+}
+
+.txt-field:focus {
+    background: 1px solid greenyellow;
+    border: 1px solid green;
+    -webkit-transition: background-color 2s;
+    -moz-transition: all 0,2s;
+    -o-transition: all 0,2s;
+    transition: background-color 2s;
+}

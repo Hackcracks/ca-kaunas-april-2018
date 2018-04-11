@@ -1,0 +1,40 @@
+#main{
+    background-color: #523939;
+}
+
+.flex{
+    display: flex;
+}
+
+.article{
+    border-top: 5px solid #ddd;
+    width: 260px;
+    padding: 20px;
+    margin: 0 20px;
+    background: #efefef;
+    -webkit-transition: 0.5s; 
+}
+
+.article:hover{
+    border-top: 5px solid blue;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-top: -3px;
+}
+
+.albert{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.foto{
+    width: 45%;
+    height: 35%;
+    border-radius: 75%;
+    float: left;
+    clear: both;
+}
+
+.text-box{
+    height: 300px;
+    width: auto;
+}
