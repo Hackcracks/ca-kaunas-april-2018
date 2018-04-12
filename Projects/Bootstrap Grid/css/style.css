@@ -1,0 +1,27 @@
+body{
+    background: url("../img/abstract.jpg")
+}
+
+.content{
+    background: #fff;
+    min-height: 150px;
+    padding: 20px;
+    /* margin-top: 10px; */
+}
+
+.content h2{
+    text-align: center;
+}
+
+#main{
+    padding-top: 100px;
+    padding: top;
+}
+
+.conteiner{
+    fill-rule: evenodd;
+}
+
+.brake{
+    height: 30px;
+}
