@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS savarankiskas</title>
+
+    <script>
+        function test(){
+            let x = (45); // nuskaitom laukelio reiksme.
+            let y = (12); // y = paverciam X i numberi
+            // console.log(typeof z);// patikrinam laukelio "Duomenu tipa"!
+            z = x + y; // pridedam + 100 prie numerio 100;
+            console.log(z);  
+            document.getElementById("result").innerText = z;
+        }
+    </script>
+</head>
+<body>
+    <input type="number" />
+    <input type="number" />
+    <button type="button" id="test" onclick="test()">Suma</button> <span>=</span>
+    <span id="result"></span>
+</body>
+</html>

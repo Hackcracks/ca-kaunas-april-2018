@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS savarankiskas1</title>
+
+    <script>
+        function sum(){
+            let x_string = document.getElementById("x").value;
+            let y_string = document.getElementById("y").value;
+
+            let x = Number(x_string);
+            let y = Number(y_string);
+
+            let rez = x + y;
+            document.getElementById("result").innerText = rez;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="number" name="x" id="x" />
+    <input type="number" name="y" id="y" />
+    <button type="button" id="sum" onclick="sum()">Suma</button>
+    <span>=</span>
+    <span id="result"></span>
+</body>
+
+</html>
