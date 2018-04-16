@@ -1,0 +1,23 @@
+body{
+    background: url("..img/hip-square.png");
+}
+
+.container{
+    /* background-image: url("img/hip-square.png"); */
+    margin-top: 50px;
+    border: 1px solid aqua;
+    min-height: 200px;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.txt_product{
+    min-width: 45%;
+}
+
+.productlist{
+    border: 1px solid black;
+    min-height: 50px;
+}
